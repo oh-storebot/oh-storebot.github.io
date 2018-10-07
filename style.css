@@ -26,7 +26,7 @@ body, html {
   }
   
   .bgimg-3 {
-    background-image: url("img_parallax3.jpg");
+    background-image: url("./images/bg3.jpg");
     min-height: 400px;
   }
   
@@ -40,6 +40,7 @@ body, html {
   }
   
   .caption span.border {
+    border-radius: 5px;
     background-color: #111;
     color: #fff;
     padding: 18px;
@@ -72,7 +73,7 @@ body, html {
   border-radius: 5px;
   background-color: white;
   padding: 1em;
-  color: black;
+  color: black; 
 }.wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -82,12 +83,42 @@ body, html {
 .one {
   grid-column: 1 / 2;
   grid-row: 1;
+  text-align: center;
 }
 .two { 
   grid-column: 2 / 3;
   grid-row: 1;
+  text-align: center;
 }
 .three {
   grid-column: 3;
   grid-row: 1;
+  text-align: center;
+}
+
+.four {
+  grid-column: 2 / 4;
+  grid-row: 1;
+  text-align: left;
+}
+
+.five{
+  grid-column: 2 / 3;
+  grid-row: 2;
+  text-align: left;
+}
+.six{
+  grid-column: 3 / 4;
+  grid-row: 3;
+  text-align: left;
+}
+a {
+    text-decoration: none;
+    color: gray;
+    align-content: center;
+}
+
+.ftr{
+  text-decoration: none;
+  color: black;
 }
